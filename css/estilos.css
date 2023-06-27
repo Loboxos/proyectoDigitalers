@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body{
+ margin:0;
+ padding: 0;
+ background:url(/img/jake-hills-23LET4Hxj_U-unsplash.jpg);
+ background-repeat: no-repeat;
+ background-size: cover
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(189, 184, 197);
+}
+.logo img{
+    width: 80px;   
+}
+.nav-menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-menu li {
+    margin:5px;
+}
+.nav-menu a {
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    color:rgb(68, 15, 99)
+}

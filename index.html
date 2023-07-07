@@ -13,22 +13,132 @@
         <div class="logo">
             <a href="index.html"><img src="img/logocine.png"class="logo" alt="LogoCine"></a>
         </div>
-        <nav class="nav-menu">
+        <nav class="nav-menu" id="menu">
             <ul>
                 <li><a href="index.html" >Inicio</a></li>
+                <li><a href="#estrenos">Estrenos</a></li>
                 <li><a href="cartelera.html">Cartelera</a></li>
-                <li><a href="estrenos.html">Estrenos</a></li>
                 <li><a href="reservas.html">Reservar</a></li>
-                <li><a href="acercade.html">Acerca de</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#acercade">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
       </header>
     <main>
-        <section>
-          <h1>Tu Cine Favorito</h1>
-          <p>Explora los ultimos estrenos y todo el catalogo!</p>
+        <div class="background-image">
+           <div class="principal">
+                <h1>Tu Cine Favorito</h1>
+                <p>Explora los ultimos estrenos y todo el catalogo!</p>
+            </div>
+        </div>
+
+        <section id="estrenos">
+            <h2>Estrenos</h2>
+            <div class="estrenos-container">
+              <div class="estreno">
+                <img src="img/227b519e83a8b99329302ad2d37d0bbb.jpg" alt="Película 1">
+                <h3>FLASH</h3>
+                <p>Descripción de la Película 1</p>
+              </div>
+              <div class="estreno">
+                <img src="img/6aa4601e49a56d928205c271b55fd463.jpg" alt="Película 2">
+                <h3>ELEMENTOS</h3>
+                <p>Descripción de la Película 2</p>
+              </div>
+              <div class="estreno">
+                <img src="img/c472b909092fa600d05588965cb9e2a3.jpg" alt="Película 3">
+                <h3>Transformers</h3>
+                <p>Descripción de la Película 3</p>
+              </div>
+              <div class="estreno">
+                <img src="img/227b519e83a8b99329302ad2d37d0bbb.jpg" alt="Película 1">
+                <h3>FLASH</h3>
+                <p>Descripción de la Película 1</p>
+              </div>
+              <div class="estreno">
+                <img src="img/6aa4601e49a56d928205c271b55fd463.jpg" alt="Película 2">
+                <h3>ELEMENTOS</h3>
+                <p>Descripción de la Película 2</p>
+              </div>
+              <div class="estreno">
+                <img src="img/c472b909092fa600d05588965cb9e2a3.jpg" alt="Película 3">
+                <h3>Transformers</h3>
+                <p>Descripción de la Película 3</p>
+              </div>
+            </div>
+          </section>
+          
+          <section id="proximos-estrenos">
+            <h2>Próximos Estrenos</h2>
+            <div class="proximos-estrenos-container">
+              <div class="proximo-estreno">
+                <img src="img/863.jpg" alt="Próxima Película 1">
+                <h3>Barbie</h3>
+                <p>proximamente</p>
+              </div>
+              <div class="proximo-estreno">
+                <img src="img/916.jpg" alt="Próxima Película 2">
+                <h3>Las tortugas ninja 3</h3>
+                <p>proximamente</p>
+              </div>
+              <div class="proximo-estreno">
+                <img src="img/949.jpg" alt="Próxima Película 3">
+                <h3>The Marvels</h3>
+                <p>proximamente</p>
+              </div>
+              <div class="proximo-estreno">
+                <img src="img/863.jpg" alt="Próxima Película 1">
+                <h3>Barbie</h3>
+                <p>proximamente</p>
+              </div>
+              <div class="proximo-estreno">
+                <img src="img/916.jpg" alt="Próxima Película 2">
+                <h3>Las tortugas ninja 3</h3>
+                <p>proximamente</p>
+              </div>
+              <div class="proximo-estreno">
+                <img src="img/949.jpg" alt="Próxima Película 3">
+                <h3>The Marvels</h3>
+                <p>proximamente</p>
+              </div>
+            </div>
+          </section>
+        
+    
+          <section id="acercade" class="acercade">
+            <div class="container-acercade">
+              <div class="columna-imagen">
+                <img src="img/bigstock-people-in-the-cinema-watching-277090507_5_1242x621.jpg" alt="Imagen de cine">
+              </div>
+              <div class="columna-texto">
+                <h2>ACERCA DE NUESTRO CINE</h2>
+                <p>Disfruta de nuestra amplia selección de películas, explora nuestro catálogo, encuentra tus favoritos, ¡reserva y disfruta de una experiencia cinematográfica! ¡Sumérgete en el mundo del cine con nosotros!</p>
+              </div>
+            </div>
+          </section>
+
+
+        <section id="contacto" class="contacto">
+          <div class="container">
+            <h2>CONTACTO</h2>
+            <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta o comentario, no dudes en contactarnos.</p>
+            <form>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
         </section>
     </main>
+    <footer>
+      <p>(C) 2023 - Cine ( Trabajo prático Desarrollo Web)</p>
+    </footer>
 </body>
 </html>   

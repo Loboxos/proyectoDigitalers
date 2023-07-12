@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e47272;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #novedades {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .novedad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .novedad img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .novedad h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .novedad p {
+    color: #777;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
